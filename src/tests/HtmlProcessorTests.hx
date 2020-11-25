@@ -1,5 +1,6 @@
 package tests;
 
+import haxe.Http;
 import ddom.Selector;
 import haxe.iterators.StringIterator;
 import ddom.DDOM;

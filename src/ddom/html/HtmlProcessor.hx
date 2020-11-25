@@ -17,8 +17,8 @@ class HtmlProcessor extends Processor implements IProcessor {
     
     var htmlDoc:HtmlDocument;
 
-	public function new(html:String) {
-        htmlDoc = new HtmlDocument(html);
+	public function new(html:String, tolerant:Bool = true) {
+        htmlDoc = new HtmlDocument(html, tolerant);
         super(htmlDoc.children.map((hn) -> htmlNodeToDataNode(hn)));
     }
 
