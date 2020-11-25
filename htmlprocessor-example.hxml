@@ -1,5 +1,6 @@
 -lib LambdaExt
 -lib HtmlParser
+-lib ddom
 -cp src
 -D analyzer-optimize
 -debug
